@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper" id="quote-box">
+      <div class="box" id="box">
+        <div id="text" class="">{this.state.quote}</div>
+
+        <div id="author">{this.state.author}</div>
+
+        <div class="buttons">
+          <div class="social">
+            <button class="btn btn-social">
+              <a
+                class=""
+                id="tweet-quote"
+                title="Tweet this quote!"
+                target="_top"
+                href="https://twitter.com/intent/tweet?hashtags="
+              >
+                <i class="fa fa-twitter"></i>
+              </a>
+            </button>
+            <button class="btn btn-social">
+              <a href="" id="">
+                <i class="fa fa-tumblr" aria-hidden="true"></i>
+              </a>
+            </button>
+          </div>
+
+          <button id="new-quote">New quote</button>
+        </div>
+      </div>
+      <footer>
+        <a class="creator">By Denis</a>
+      </footer>
+    </div>
+  </body>
+</html>
