@@ -12,12 +12,17 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   transition-duration: 2s;
   width: 600px;
   height: 100%;
 }
 
 .box {
+  display: block;
   background-color: #fff;
   padding: 40px;
   border-radius: 5px;
